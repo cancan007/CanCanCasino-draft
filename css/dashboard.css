@@ -70,8 +70,24 @@ select {
     margin: 0;
 }
 
+.token-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.token-box .token-logo-box {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.token-logo-box img {
+    width: 20px;
+    height: 20px;
+}
+
 .deposit-function-detail .token-deposit-tabs p {
-    margin-top: 0;
+    margin: 0;
 }
 
 .tabs {
@@ -104,7 +120,7 @@ select {
     margin: .25em 0;
 }
 
-.deposit-function-detail input {
+input {
     background: transparent;
     border: 1px solid black;
     border-radius: .3em;
@@ -130,7 +146,7 @@ select {
 
 .deposit-function-detail .deposit-btn:focus {
     color: #1a0d91;
-    border-color: #1a0d91
+    border-color: #1a0d91;
 }
 
 
@@ -160,4 +176,30 @@ select {
 .bet-form select {
     color: #f334d0;
     border-color: #C00E0E;
+}
+
+.bet-form .token0-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.token0-form .bet-label {
+    margin: .1em 0 .3em;
+    font-size: 1.5em;
+    color: #B8720A;
+}
+
+.token0-form p {
+    margin: 0;
+}
+
+.token0-form .token-rate-box {
+    display: flex;
+}
+
+.token-rate-box .rate-box {
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
 }
