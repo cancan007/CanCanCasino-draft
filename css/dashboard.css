@@ -1,0 +1,56 @@
+.dashboard-main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    width: 1200px;
+    flex-grow: 2;
+}
+
+.dashboard-main-section .deposit-board {
+    display: flex;
+    background-color: #07082C;
+    border-radius: .5rem;
+    width: 100%;
+    padding: .5rem;
+}
+
+.deposit-board .deposit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.deposit-form hr {
+    width: 100%;
+    border: .5px solid rgba(255, 255, 255, 30%);
+}
+
+.deposit-form select {
+    background: transparent;
+    color: #1d84d2;
+    border-color: #170AA9;
+    border-radius: .3rem;
+    width: 100%;
+    padding: .25em;
+    cursor: pointer;
+}
+
+/* can change select options color
+.deposit-form select:focus {
+    background-color: blue;
+}
+*/
+
+.deposit-form .token-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.deposit-form .token-detail p {
+    margin: 0 0;
+}

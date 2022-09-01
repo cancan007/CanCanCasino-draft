@@ -20,7 +20,21 @@
         </header>
         <section class="dashboard-main-section">
             <div class="deposit-board">
-                <div class="deposit-form"></div>
+                <div class="deposit-form">
+                    <select class="token-selector" name="tokens" id="tokens">
+                        <option value="" hidden>Select Token</option>
+                        <option value="ETH">ETH</option>
+                        <option value="AVAX">AVAX</option>
+                        <option value="QI">QI</option>
+                        <option value="CCC">CCC</option>
+                    </select>
+                    <div class="token-detail">
+                        <p>Token rate : </p>
+                        <p>Your balance : </p>
+                        <p>Your deposited balance : </p>
+                    </div>
+                    <hr>
+                </div>
                 <div class="rate-balance-graph-table"></div>
             </div>
             <div class="bet-my-transactions-section">
