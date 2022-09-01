@@ -28,14 +28,17 @@
     border: .5px solid rgba(255, 255, 255, 30%);
 }
 
-.deposit-form select {
+select {
     background: transparent;
-    color: #1d84d2;
-    border-color: #170AA9;
     border-radius: .3rem;
     width: 100%;
     padding: .25em;
     cursor: pointer;
+}
+
+.deposit-form select {
+    color: #1d84d2;
+    border-color: #170AA9;
 }
 
 /* can change select options color
@@ -71,24 +74,27 @@
     margin-top: 0;
 }
 
-.deposit-function-detail .token-deposit-tabs .tabs {
+.tabs {
     display: flex;
     padding: 0;
+    min-width: 6em;
+    min-height: 2em;
     background: transparent;
     border: 1px solid black;
     border-radius: .5rem;
     align-items: stretch;
 }
 
-.deposit-function-detail .token-deposit-tabs .tabs .tab {
+.tabs .tab {
     background: transparent;
     color: inherit;
     border: none;
     font-weight: bold;
     cursor: pointer;
+    min-width: 4em;
 }
 
-.deposit-function-detail .token-deposit-tabs .tabs .tab--active {
+.tabs .tab--active {
     background-color: #245DCB;
     border-radius: .5rem;
     margin: .2rem 0;
@@ -125,4 +131,33 @@
 .deposit-function-detail .deposit-btn:focus {
     color: #1a0d91;
     border-color: #1a0d91
+}
+
+
+/* Graph table */
+.deposit-board .rate-balance-graph-table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 70%;
+}
+
+
+.dashboard-main-section .bet-my-transactions-section {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.bet-my-transactions-section .bet-form {
+    width: 30%;
+    background-color: #07082C;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.bet-form select {
+    color: #f334d0;
+    border-color: #C00E0E;
 }

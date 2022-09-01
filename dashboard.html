@@ -47,10 +47,32 @@
                         <button class="deposit-btn">Deposit</button>
                     </div>
                 </div>
-                <div class="rate-balance-graph-table"></div>
+                <div class="rate-balance-graph-table">
+                    <div class="tabs">
+                        <button class="tab tab--active">Rate</button>
+                        <button class="tab">Balance</button>
+                    </div>
+                </div>
             </div>
             <div class="bet-my-transactions-section">
-                <div class="bet-form"></div>
+                <div class="bet-form">
+                    <select name="token-markets" id="token-markets">
+                        <option value="" hidden>Select token markets [bet / order]</option>
+                        <option value="ETH,ETH">ETH / ETH</option>
+                        <option value="ETH / AVAX">ETH / AVAX</option>
+                        <option value="ETH / QI">ETH / QI</option>
+                        <option value="ETH / CCC">ETH / CCC</option>
+                    </select>
+                    <div class="token0-form">
+                        <h1>Bet</h1>
+                        <div class="token-rate-box">
+                            <p>Token : </p>
+                            <p>Rate : </p>
+                        </div>
+                        <p>Amount : </p>
+                        <input type="text" id='token-amount' placeholder="0.000">
+                    </div>
+                </div>
                 <div class="my-transactions-tabel">
                     <div class="my-orders-table"></div>
                     <div class="my-results-table"></div>
