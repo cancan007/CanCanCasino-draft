@@ -54,3 +54,75 @@
 .deposit-form .token-detail p {
     margin: 0 0;
 }
+
+.deposit-form .deposit-function-detail {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.deposit-function-detail .token-deposit-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.deposit-function-detail .token-deposit-tabs p {
+    margin-top: 0;
+}
+
+.deposit-function-detail .token-deposit-tabs .tabs {
+    display: flex;
+    padding: 0;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: .5rem;
+    align-items: stretch;
+}
+
+.deposit-function-detail .token-deposit-tabs .tabs .tab {
+    background: transparent;
+    color: inherit;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deposit-function-detail .token-deposit-tabs .tabs .tab--active {
+    background-color: #245DCB;
+    border-radius: .5rem;
+    margin: .2rem 0;
+}
+
+.deposit-function-detail .amount-label {
+    margin: .25em 0;
+}
+
+.deposit-function-detail input {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: .3em;
+    padding: .15em;
+    font-size: 1.15em;
+    color: inherit;
+}
+
+.deposit-function-detail .deposit-btn {
+    background: transparent;
+    border: 1px solid #74F4FC;
+    color: #74F4FC;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.deposit-function-detail .deposit-btn:hover {
+    color: #036734;
+    border-color: #036734;
+}
+
+.deposit-function-detail .deposit-btn:focus {
+    color: #1a0d91;
+    border-color: #1a0d91
+}
