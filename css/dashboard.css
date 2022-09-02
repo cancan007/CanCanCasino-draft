@@ -23,7 +23,7 @@
     width: 30%;
 }
 
-.deposit-form hr {
+hr {
     width: 100%;
     border: .5px solid rgba(255, 255, 255, 30%);
 }
@@ -194,7 +194,7 @@ input {
     margin: 0;
 }
 
-.token0-form .token-rate-box {
+.token-rate-box {
     display: flex;
 }
 
@@ -202,4 +202,20 @@ input {
     margin-left: 4em;
     display: flex;
     flex-direction: column;
+}
+
+.bet-form .token1-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.token1-form .order-label {
+    margin: .1em 0 .3em;
+    font-size: 1.5em;
+    color: #00C92C;
+}
+
+.token1-form p {
+    margin: 0;
 }
