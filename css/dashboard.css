@@ -162,6 +162,7 @@ input {
 .dashboard-main-section .bet-my-transactions-section {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     width: 100%;
     margin-top: 1.5em;
 }
@@ -217,5 +218,123 @@ input {
 }
 
 .token1-form p {
+    margin: 0;
+}
+
+.bet-form .bet-btn {
+    background: transparent;
+    border: 1px solid #b952a0;
+    color: #b952a0;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: .5em;
+    cursor: pointer;
+    width: 100%;
+}
+
+.bet-form .bet-btn:hover {
+    border: 1px solid #FA61E1;
+    color: #FA61E1;
+}
+
+.bet-form .bet-btn:focus {
+    border: 1px solid #6a0250;
+    color: #6a0250;
+}
+
+.bet-my-transactions-section .my-transactions-tabel {
+    width: 70%;
+    background-color: #07082C;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.my-transactions-tabel .my-orders-label {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+table .token-logo-box {
+    display: flex;
+    align-items: center;
+}
+
+table tr {
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(18, 1fr);
+}
+
+table tr th {
+    font-size: .7rem;
+    text-align: start;
+    font-weight: 300;
+    color: slategrey;
+}
+
+table tr td {
+    font-size: .8rem;
+    text-align: start;
+}
+
+table tr th:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+table tr td:nth-child(1) {
+    grid-column: 1/6;
+}
+
+table tr th:nth-child(2) {
+    grid-column: 6/8;
+}
+
+table tr td:nth-child(2) {
+    grid-column: 6/8;
+}
+
+table tr th:nth-child(3) {
+    grid-column: 8/10;
+}
+
+table tr td:nth-child(3) {
+    grid-column: 8/10;
+}
+
+table tr th:nth-child(4) {
+    grid-column: 10/12;
+}
+
+table tr td:nth-child(4) {
+    grid-column: 10/12;
+}
+
+table tr th:nth-child(5) {
+    grid-column: 12/14;
+}
+
+table tr td:nth-child(5) {
+    grid-column: 12/14;
+}
+
+table tr th:nth-child(6) {
+    grid-column: 14/16;
+}
+
+table tr td:nth-child(6) {
+    grid-column: 14/16;
+}
+
+table tr .result-tag {
+    color: #00C92C
+}
+
+.my-transactions-tabel .my-results-label {
+    font-size: 1.5em;
     margin: 0;
 }
