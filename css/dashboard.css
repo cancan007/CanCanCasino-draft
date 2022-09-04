@@ -37,8 +37,8 @@ select {
 }
 
 .deposit-form select {
-    color: #1d84d2;
-    border-color: #170AA9;
+    color: #2486d6;
+    border-color: #2486d6;
 }
 
 /* can change select options color
@@ -176,7 +176,7 @@ input {
 
 .bet-form select {
     color: #f334d0;
-    border-color: #C00E0E;
+    border-color: #f334d0;
 }
 
 .bet-form .token0-form {
@@ -247,6 +247,7 @@ input {
     background-color: #07082C;
     padding: .5rem;
     border-radius: .5rem;
+    margin-left: .5rem;
 }
 
 .my-transactions-tabel .my-orders-label {
@@ -267,6 +268,18 @@ table tr {
     display: grid;
     justify-content: flex-start;
     grid-template-columns: repeat(18, 1fr);
+}
+
+table .order-tags {
+    cursor: pointer;
+}
+
+table .order-tags:hover {
+    background-color: #0a021c;
+}
+
+table .order-tags:focus {
+    background-color: #53206e;
 }
 
 table tr th {
@@ -330,6 +343,14 @@ table tr td:nth-child(6) {
     grid-column: 14/16;
 }
 
+table tr th:nth-child(7) {
+    grid-column: 16/18;
+}
+
+table tr td:nth-child(7) {
+    grid-column: 16/18;
+}
+
 table tr .result-tag {
     color: #00C92C
 }
@@ -337,4 +358,46 @@ table tr .result-tag {
 .my-transactions-tabel .my-results-label {
     font-size: 1.5em;
     margin: 0;
+}
+
+.transactions-section {
+    width: 100%;
+    background-color: #07082C;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    ;
+}
+
+.transactions-section .orders-table {
+    width: 100%;
+}
+
+.orders-table .orders-label {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.transactions-section .results-table {
+    width: 100%;
+}
+
+.results-table .results-label {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.results-table .winner-tag {
+    color: #00C92C;
+}
+
+.results-table .loser-tag {
+    color: #C00E0E;
+}
+
+.main-footer {
+    width: 100%;
+    height: 50px;
+    background-color: #0F0606;
 }
