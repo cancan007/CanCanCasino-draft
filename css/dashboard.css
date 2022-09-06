@@ -1,3 +1,52 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .account-info-box {
+    display: flex;
+    align-items: center;
+    background-color: #07082C;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+.account-info-box .account-balance {
+    padding: .5em 2em;
+}
+
+.account-balance small {
+    font-size: .7rem;
+    margin-right: .3rem;
+    color: slategrey;
+}
+
+.account-info-box .account-address {
+    display: flex;
+    background-color: #3b3f51;
+    height: 100%;
+    align-items: center;
+    border-radius: .5rem;
+    padding: .5em 2em;
+}
+
+.account-address a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.account-address .connect-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+
+
 .dashboard-main-section {
     display: flex;
     flex-direction: column;
@@ -378,6 +427,7 @@ table tr .result-tag {
     font-size: 1.5em;
     margin: 0;
 }
+
 
 .transactions-section .results-table {
     width: 100%;
